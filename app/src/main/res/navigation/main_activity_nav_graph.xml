@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity_nav_graph"
+    app:startDestination="@id/transformationFragment">
+
+    <fragment
+        android:id="@+id/transformationFragment"
+        android:name="com.meancoder.meanarteffect.fragments.TransformationFragment"
+        android:label="fragment_transformation"
+        tools:layout="@layout/fragment_transformation" >
+        <action
+            android:id="@+id/action_transformationFragment_to_selectImageFragment"
+            app:destination="@id/selectImageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/selectImageFragment"
+        android:name="com.meancoder.meanarteffect.fragments.SelectImageFragment"
+        android:label="fragment_select_image"
+        tools:layout="@layout/fragment_select_image" />
+</navigation>

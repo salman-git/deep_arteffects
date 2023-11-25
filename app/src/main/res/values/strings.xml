@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Deep ArtEffects</string>
+    <string name="splash_activity_text">Deep Arteffects</string>
+    <string name="alertdialog_bannerad_id">ca-app-pub-9928485111775328/8079210462</string>
+    <string name="FRAGMENT_TRANSFORM_INTERESTITIAL_AD">ca-app-pub-9928485111775328/2640015670</string>
+    <string name="AD_UNIT_ID" />
+</resources>
